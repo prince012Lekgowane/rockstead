@@ -9,7 +9,1025 @@
         :root {
             --primary: #2c3e50;
             --secondary: #e74c3c;
-            --accent: #3498db;
+            --accent: #3498db;<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rockstead Projects | Quality Construction & Renovations</title>
+    <meta name="description" content="Rockstead Projects - Gauteng's premier construction company specializing in high-quality residential renovations and finishing work.">
+    
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="Rockstead Projects | Quality Construction & Renovations">
+    <meta property="og:description" content="Gauteng's premier construction company specializing in high-quality residential renovations and finishing work.">
+    <meta property="og:image" content="https://lh3.googleusercontent.com/p/AF1QipPss30g3brWgnh8k0pmyfmL4YSCDxJf_jC31XIR=s680-w680-h510">
+    <meta property="og:url" content="https://rocksteadprojects.co.za">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rockstead Projects | Quality Construction & Renovations">
+    <meta name="twitter:description" content="Gauteng's premier construction company specializing in high-quality residential renovations and finishing work.">
+    <meta name="twitter:image" content="https://lh3.googleusercontent.com/p/AF1QipPss30g3brWgnh8k0pmyfmL4YSCDxJf_jC31XIR=s680-w680-h510">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://lh3.googleusercontent.com/a-/ALV-UjW-40WmhO7VGLNAIDB74J3vokd7F-8o7oeDLm1eGg8-AjSpDcM=w72-h72-p-rp-mo-br100">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --charcoal: #36454F;
+            --charcoal-light: #4A5A66;
+            --charcoal-dark: #2C3A44;
+            --accent: #E67E22;
+            --light: #F5F7FA;
+            --text: #333333;
+            --text-light: #666666;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--light);
+        }
+        
+        /* Header & Navigation */
+        header {
+            background-color: white;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo h1 {
+            font-size: 1.8rem;
+            color: var(--charcoal);
+            margin-left: 10px;
+            font-weight: 700;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+        
+        .nav-links li {
+            margin-left: 25px;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: var(--charcoal);
+            font-weight: 500;
+            transition: color 0.3s;
+            position: relative;
+        }
+        
+        .nav-links a:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 0;
+            background-color: var(--accent);
+            transition: width 0.3s;
+        }
+        
+        .nav-links a:hover:after {
+            width: 100%;
+        }
+        
+        .nav-links a:hover {
+            color: var(--charcoal-light);
+        }
+        
+        .cta-button {
+            background-color: var(--charcoal);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: inline-block;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .cta-button:hover {
+            background-color: var(--charcoal-light);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://lh3.googleusercontent.com/p/AF1QipPss30g3brWgnh8k0pmyfmL4YSCDxJf_jC31XIR=s680-w680-h510');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 120px 0;
+            text-align: center;
+        }
+        
+        .hero h2 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            max-width: 700px;
+            margin: 0 auto 40px;
+            opacity: 0.9;
+        }
+        
+        /* Services Section */
+        .services {
+            padding: 100px 0;
+            background-color: white;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .section-title h2 {
+            font-size: 2.2rem;
+            color: var(--charcoal);
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .section-title p {
+            color: var(--text-light);
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .service-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+            border: 1px solid #eee;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+        }
+        
+        .service-img {
+            height: 220px;
+            overflow: hidden;
+        }
+        
+        .service-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+        
+        .service-card:hover .service-img img {
+            transform: scale(1.05);
+        }
+        
+        .service-content {
+            padding: 25px;
+        }
+        
+        .service-content h3 {
+            color: var(--charcoal);
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+        }
+        
+        .service-content p {
+            color: var(--text-light);
+            margin-bottom: 20px;
+        }
+        
+        .service-link {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            transition: all 0.3s;
+        }
+        
+        .service-link i {
+            margin-left: 5px;
+            transition: transform 0.3s;
+        }
+        
+        .service-link:hover {
+            color: var(--charcoal);
+        }
+        
+        .service-link:hover i {
+            transform: translateX(5px);
+        }
+        
+        /* About Section */
+        .about {
+            padding: 100px 0;
+            background-color: #f8f9fa;
+        }
+        
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+        
+        .about-text h2 {
+            color: var(--charcoal);
+            margin-bottom: 25px;
+            font-size: 2.2rem;
+            font-weight: 700;
+        }
+        
+        .about-text p {
+            margin-bottom: 20px;
+            color: var(--text-light);
+            font-size: 1.05rem;
+        }
+        
+        .about-features {
+            margin-top: 30px;
+        }
+        
+        .about-feature {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .about-feature i {
+            color: var(--accent);
+            margin-right: 10px;
+            font-size: 1.1rem;
+        }
+        
+        .about-image {
+            position: relative;
+        }
+        
+        .about-image img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .experience-badge {
+            position: absolute;
+            bottom: -20px;
+            right: -20px;
+            background-color: var(--accent);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .experience-badge .number {
+            font-size: 2rem;
+            font-weight: 700;
+            display: block;
+            line-height: 1;
+        }
+        
+        .experience-badge .text {
+            font-size: 0.9rem;
+        }
+        
+        /* Features Section */
+        .features {
+            padding: 100px 0;
+            background-color: white;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        
+        .feature {
+            text-align: center;
+            padding: 40px 25px;
+            border-radius: 10px;
+            transition: all 0.3s;
+            background-color: white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        
+        .feature:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+        
+        .feature-icon {
+            width: 70px;
+            height: 70px;
+            background-color: rgba(230, 126, 34, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            color: var(--accent);
+            font-size: 1.8rem;
+        }
+        
+        .feature h3 {
+            color: var(--charcoal);
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+        
+        .feature p {
+            color: var(--text-light);
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, var(--charcoal) 0%, var(--charcoal-dark) 100%);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        .cta-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .cta-section p {
+            max-width: 700px;
+            margin: 0 auto 40px;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .cta-button-secondary {
+            background-color: transparent;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: inline-block;
+            border: 2px solid white;
+        }
+        
+        .cta-button-secondary:hover {
+            background-color: white;
+            color: var(--charcoal);
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--charcoal-dark);
+            color: white;
+            padding: 70px 0 20px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+        
+        .footer-column h3 {
+            font-size: 1.3rem;
+            margin-bottom: 25px;
+            color: white;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .footer-column h3:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 40px;
+            height: 2px;
+            background-color: var(--accent);
+        }
+        
+        .footer-column p, .footer-column a {
+            color: #bbb;
+            margin-bottom: 12px;
+            display: block;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-column a:hover {
+            color: white;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .social-links a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            transition: all 0.3s;
+        }
+        
+        .social-links a:hover {
+            background-color: var(--accent);
+            transform: translateY(-3px);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: #bbb;
+            font-size: 0.9rem;
+        }
+        
+        /* Batau Software Banner */
+        .batau-banner {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        
+        .batau-banner a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .batau-banner a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Modern WhatsApp CTA Buttons */
+        .whatsapp-cta {
+            position: fixed;
+            right: 25px;
+            bottom: 25px;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .whatsapp-btn {
+            display: flex;
+            align-items: center;
+            background-color: var(--charcoal);
+            color: white;
+            padding: 14px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s;
+            min-width: 180px;
+        }
+        
+        .whatsapp-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            background-color: var(--charcoal-light);
+        }
+        
+        .whatsapp-btn i {
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+        
+        .whatsapp-btn.rockstead {
+            background-color: var(--charcoal);
+        }
+        
+        .whatsapp-btn.rockstead:hover {
+            background-color: var(--charcoal-light);
+        }
+        
+        .whatsapp-btn.batau {
+            background-color: #555;
+        }
+        
+        .whatsapp-btn.batau:hover {
+            background-color: #666;
+        }
+        
+        /* Quote Request Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.7);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .modal-content {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            position: relative;
+        }
+        
+        .close-modal {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--text-light);
+        }
+        
+        .modal h3 {
+            color: var(--charcoal);
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--charcoal);
+            font-weight: 500;
+        }
+        
+        .form-group input, .form-group textarea, .form-group select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 1rem;
+            transition: border 0.3s;
+        }
+        
+        .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
+            border-color: var(--accent);
+            outline: none;
+        }
+        
+        .submit-btn {
+            background-color: var(--charcoal);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            width: 100%;
+        }
+        
+        .submit-btn:hover {
+            background-color: var(--charcoal-light);
+        }
+        
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+            }
+            
+            .logo {
+                margin-bottom: 15px;
+            }
+            
+            .nav-links {
+                margin-bottom: 20px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .nav-links li {
+                margin: 5px 10px;
+            }
+            
+            .hero h2 {
+                font-size: 2.2rem;
+            }
+            
+            .hero p {
+                font-size: 1.1rem;
+            }
+            
+            .about-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .experience-badge {
+                position: relative;
+                bottom: 0;
+                right: 0;
+                margin-top: 20px;
+                display: inline-block;
+            }
+            
+            .hero, .services, .about, .features, .cta-section {
+                padding: 70px 0;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .whatsapp-cta {
+                right: 15px;
+                bottom: 15px;
+            }
+            
+            .whatsapp-btn {
+                padding: 12px 16px;
+                min-width: 160px;
+                font-size: 0.9rem;
+            }
+            
+            .whatsapp-btn i {
+                font-size: 1.3rem;
+                margin-right: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Rockstead Projects</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#" class="cta-button" id="open-quote-modal">Get Quote</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h2>Quality Construction & Renovations in Gauteng</h2>
+            <p>Specializing in residential renovations, high-quality finishes, and defect repair. We deliver clean work, clear communication, and dependable service — every time.</p>
+            <a href="#contact" class="cta-button">Get Free Quote</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>We provide comprehensive construction and renovation services with exceptional attention to detail and quality craftsmanship.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://lh3.googleusercontent.com/p/AF1QipMPz_SgYidU71nzTnRB14o9are0ibfflRR8YPnc=s680-w680-h510" alt="Interior Renovations">
+                    </div>
+                    <div class="service-content">
+                        <h3>Interior Renovations</h3>
+                        <p>Transform your living spaces with our premium interior renovation services. We focus on quality finishes and attention to detail.</p>
+                        <a href="#" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://lh3.googleusercontent.com/p/AF1QipM_Wew0hjoQIG89eYEoDoZKQV6PGDdIdU2xv3Qm=s680-w680-h510" alt="Quality Finishing Work">
+                    </div>
+                    <div class="service-content">
+                        <h3>Quality Finishing Work</h3>
+                        <p>Our expert team delivers exceptional finishing work that elevates the overall look and feel of your property.</p>
+                        <a href="#" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://www.localpros.co.za/wp-content/uploads/2025/08/image-1755010847679.webp" alt="Defect Repair Services">
+                    </div>
+                    <div class="service-content">
+                        <h3>Defect Repair Services</h3>
+                        <p>We specialize in identifying and fixing construction defects with precision and efficiency, ensuring lasting results.</p>
+                        <a href="#" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Rockstead Projects</h2>
+                    <p>Rockstead Projects is a Gauteng-based construction company specializing in residential renovations, high-quality finishes, and defect repair (snag work). We focus exclusively on home improvement — delivering exceptional results with every project.</p>
+                    <p>Our dedicated team ensures every project is finished with precision and care. Whether you're a homeowner or a contractor needing reliable finishing crews, we deliver clean work, clear communication, and dependable service — every time.</p>
+                    <p><strong>📍 Serving Pretoria, Johannesburg & surrounding areas</strong></p>
+                    
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Fully licensed and insured</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Quality materials and workmanship</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>On-time project completion</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://www.localpros.co.za/wp-content/uploads/2025/08/image-1755010854361.webp" alt="Rockstead Projects Team">
+                    <div class="experience-badge">
+                        <span class="number">10+</span>
+                        <span class="text">Years Experience</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose Rockstead Projects</h2>
+                <p>We're committed to delivering exceptional service and quality workmanship on every project</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Fast Quotes</h3>
+                    <p>Quick response times with detailed, transparent pricing for all our services.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Fully Insured</h3>
+                    <p>Peace of mind with comprehensive insurance coverage for all projects.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <h3>Flexible Payment</h3>
+                    <p>Various payment options available to suit different budgets and needs.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Quality Guarantee</h3>
+                    <p>We stand behind our work with a comprehensive satisfaction guarantee.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <h2>Ready to Transform Your Space?</h2>
+            <p>Contact us today for a free, no-obligation quote. Let's discuss how we can bring your vision to life with quality craftsmanship and exceptional service.</p>
+            <div class="cta-buttons">
+                <a href="tel:+27123456789" class="cta-button">Call Now</a>
+                <a href="#" class="cta-button-secondary" id="open-quote-modal-2">Request Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Rockstead Projects</h3>
+                    <p>Your trusted partner for quality construction and renovation services in Gauteng. Specializing in residential improvements with precision and care.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-phone"></i> (066) 249-0185</p>
+                    <p><i class="fas fa-envelope"></i> info@rocksteadprojects.co.za</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Pretoria, Johannesburg & Surroundings</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <a href="#home">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <a href="#">Interior Renovations</a>
+                    <a href="#">Quality Finishing Work</a>
+                    <a href="#">Defect Repair Services</a>
+                    <a href="#">Residential Construction</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Batau Software Banner -->
+    <div class="batau-banner">
+        <div class="container">
+            Website developed by <a href="#" target="_blank">Batau Software</a> | Professional web solutions for construction businesses
+        </div>
+    </div>
+
+    <!-- WhatsApp CTA Buttons -->
+    <div class="whatsapp-cta">
+        <a href="https://wa.me/27662490185?text=Hi%20Rockstead%20Projects,%20I%20would%20like%20to%20get%20a%20quote" class="whatsapp-btn rockstead" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            <span>Get Quote</span>
+        </a>
+        <a href="https://wa.me/27689762588?text=Hi%20Batau%20Software,%20I%20need%20help%20with%20a%20website" class="whatsapp-btn batau" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            <span>Website Help</span>
+        </a>
+    </div>
+
+    <!-- Quote Request Modal -->
+    <div class="modal" id="quote-modal">
+        <div class="modal-content">
+            <span class="close-modal" id="close-modal">&times;</span>
+            <h3>Request a Free Quote</h3>
+            <form id="quote-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">Service Needed</label>
+                    <select id="service" name="service">
+                        <option value="renovation">Interior Renovation</option>
+                        <option value="finishing">Quality Finishing Work</option>
+                        <option value="repair">Defect Repair</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Project Details</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit Request</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Modal functionality
+        const quoteModal = document.getElementById('quote-modal');
+        const openQuoteModal = document.getElementById('open-quote-modal');
+        const openQuoteModal2 = document.getElementById('open-quote-modal-2');
+        const closeModal = document.getElementById('close-modal');
+        
+        openQuoteModal.addEventListener('click', (e) => {
+            e.preventDefault();
+            quoteModal.style.display = 'flex';
+        });
+        
+        openQuoteModal2.addEventListener('click', (e) => {
+            e.preventDefault();
+            quoteModal.style.display = 'flex';
+        });
+        
+        closeModal.addEventListener('click', () => {
+            quoteModal.style.display = 'none';
+        });
+        
+        window.addEventListener('click', (e) => {
+            if (e.target === quoteModal) {
+                quoteModal.style.display = 'none';
+            }
+        });
+        
+        // Form submission
+        document.getElementById('quote-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Thank you for your quote request! We will contact you shortly.');
+            quoteModal.style.display = 'none';
+            document.getElementById('quote-form').reset();
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                if (this.getAttribute('href') !== '#') {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
             --light: #ecf0f1;
             --dark: #2c3e50;
         }
